@@ -1,0 +1,33 @@
+.card-container {
+    max-width: 300px; /* Ajusta el valor según el ancho deseado */
+    margin: 0 auto; /* Centrar horizontalmente */
+  }
+  
+  .card {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-content {
+    font-size: 1rem;
+    color: #333;
+  }
+
+
+/* En tu archivo CSS */
+.centered-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Cambiamos "center" por "flex-start" */
+    height: 100vh;
+  }
+  
