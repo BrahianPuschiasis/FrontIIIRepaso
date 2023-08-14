@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Anime Favorito</h1>
+      <h1>Formulario</h1>
       <form onSubmit={handleSubmit}>
         <div>
           <input
